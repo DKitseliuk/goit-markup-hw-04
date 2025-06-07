@@ -13,6 +13,34 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 24px 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+    align-items: center;
 }
 
 .nav-logo-link,
@@ -34,6 +62,12 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+
+.nav-list-item,
+.address-list-item {
+    display: inline;
+    margin-right: 40px;
 }
 
 .nav-list-item-link {
@@ -85,6 +119,8 @@ ul {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    display: block;
+    position: center;
 }
 
 .content-btn:hover,
@@ -104,10 +140,22 @@ ul {
 
 .team {
     background-color: #f4f4fd;
+    padding: 0;
+    margin: 0;
+
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
 }
 
 .team-list-item {
     background-color: #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
 .team-title,
@@ -128,6 +176,17 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-list {
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    flex-basis: calc((100% - 48px)/3);
+    background-color: hotpink;
 }
 
 .footer {
