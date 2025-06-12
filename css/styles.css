@@ -361,9 +361,9 @@ img {
     padding: 100px 0;
 }
 
-.footer-box {
+.footer>.container {
     display: flex;
-    justify-content: baseline;
+    align-items: baseline;
 }
 
 .footer-desc {
