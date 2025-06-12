@@ -137,3 +137,5 @@ dist
 
 # my files
 .prettierrc.json
+.vscode
+.vscode/*
